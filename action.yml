@@ -11,7 +11,7 @@ inputs:
     default: 'false'
   type-checking-command:
     description: 'Overwrite the default type checking command'
-    default: 'npm run build:ts -- --noEmit'
+    default: 'npm run check'
   lint:
     description: 'Set to true when the adapter has a linter configured'
     default: 'false'
