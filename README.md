@@ -1,4 +1,4 @@
-# iobroker-testing-action-check
+# testing-action-check
 
 Shared Github Actions for ioBroker testing workflows: Check and lint step
 
@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: AlCalzone/iobroker-testing-action-check@v1
+      - uses: ioBroker/testing-action-check@v1
         with:
           node-version: "14.x" # This should be LTS
           # type-checking: 'true' # optional
